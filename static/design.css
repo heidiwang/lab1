@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* Personal website design document
+Written by: Heidi Wang
+August 2011
+*/
+
+/*MAIN STYLE DEFINITIONS*/
+
+body {
+	width: 800px;
+	background: #FFFFFF;
+	font-family: Garamond;
+	padding: 10px 10px 10px 10px;
+	margin: 20px auto;
+	text-align: left;
+}
+
+#main_navi {
+	width: 100px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+#main_content {
+	width: 700px;
+	float: left;
+	padding: 0px 0px 50px 0px;
+}
+
+H1, H2, H3, H4, H5 {
+    font-family: Helvetica;
+    color: black;
+    text-align: left;
+    }
+    
+h1{
+	font-size: 30pt;
+}
+
+h2{
+	font-size: 15pt;
+}
+
+a {
+	color: #000000;
+	border-bottom: black 1px dotted;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: yellow;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a#selected {
+	background-color:yellow;
+	text-decoration: none;
+}
+
+.icon {
+	border-bottom: none;
+	height: 100px;
+	width: 100px;
+	background-position: left top;
+}
+
+.right {
+	margin: 0em 0pt 0.5em 0.8em;
+	float:right;
+}
+.left {
+	margin: 0em 0.8em 0.5em 0;
+	float:left;
+}
+
+td {
+	vertical-align: top;
+	padding-right: 15px;
+}
+
+hr {page-break-after: always;}
+
+.socials a {
+	font-size: 30px;
+	color: #aaaaaa;
+	border-bottom: none;
+	text-decoration: none;
+}
